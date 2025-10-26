@@ -17,17 +17,15 @@ int main()
         }
         
     }
-    
+    printf("\n");
     for(i=0;i<r;i++)
     {
         for(j=0;j<c;j++)
         {
             sum+=arr[i][j];
-            printf("%d ",arr[i][j]);
-        }
-        printf("\n");    
+        } 
+        printf("%d ,",sum);  
+        sum=0;
     }
-    printf("\n");  
-    printf("%d ",sum);  
     return 0;
 }
